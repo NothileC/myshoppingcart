@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(206, 198, 188);
     font-family: 'Montserrat', sans-serif
 }
 img{
@@ -7,7 +7,6 @@ img{
     height: auto;
     
 }
-img:hover{
-    transition: 0.5s;
-    cursor: pointer;
+.container{
+    background-color: rgb(196, 185, 170);
 }
