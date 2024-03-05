@@ -17,8 +17,24 @@
 <body>
 
   <div class="container mt-3">
-    <h2>Shop Skin</h2>
-    <p>Be Your Own Kind Of Beautiful: Exclusive Offers!</p>            
+    <!-------------navbar-->
+    <div class="container">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            <p class="shopping">Shopping Cart</p>
+          </a>
+        </div>
+        
+        <div class="col-md-3 text-end links">
+          <button type="button" class="btn btn-outline-primary me-2 Login">Login</button>
+          <button type="button" class="btn btn-primary">Help</button>
+        </div>
+      </header>
+    </div>
+    
+<!----------table for all content-->     
     <table class="table table-hover">
       <thead>
         <tr>
@@ -67,9 +83,11 @@
 
 
         <tr>
-          <td><button id="btn-goback">Go Back</button></td>
+          <td><button id="btn-goback" class="btn-goback">Go Back</button></td>
+          <td></td>
           <td><label for="text-grandtotal">Grandtotal ($)<input id="text-grandtotal" value="95"></input></label></td>
-          <td><button id="btn-continue">Continue</button></td>
+          <td></td>
+          <td><button id="btn-continue" class="btn-continue">Continue</button></td>
         </tr>
        
       </tbody>
