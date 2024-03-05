@@ -1,4 +1,4 @@
-//function to calculate total for item 1
+//function to calculate total for item 
 function calculateSubtotal(operator,quantityId){
     calculateQuantity(operator,quantityId); 
    
@@ -12,7 +12,7 @@ function calculateSubtotal(operator,quantityId){
 
 
 }
-
+//function to calculate the quantity of the product
 function calculateQuantity(operator,quantityId){
     if (operator == "+"){
         document.getElementById(quantityId).value  = parseInt(document.getElementById(quantityId).value) + 1;
@@ -24,7 +24,7 @@ function calculateQuantity(operator,quantityId){
     } 
     
 }
-
+//calculating grandtotal 
 function calculateGrandTotal(){
     document.getElementById("text-grandtotal").value = parseInt( document.getElementById("lblUnitSubtotalProduct1").innerHTML ) + parseInt(document.getElementById("lblUnitSubtotalProduct2").innerHTML) +  parseInt( document.getElementById("lblUnitSubtotalProduct3").innerHTML )
 }
